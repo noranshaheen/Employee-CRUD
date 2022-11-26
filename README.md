@@ -7,18 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About CRUD-employee project
+it is a simple web application which allow to the authenticated and authorized admin to add,update or delete users from the system. this application has been created using the basic structuring language in frontend which is HTML without any styling. Also, using larevel frame work as a backend environment.
+
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Learning Laravel
@@ -30,6 +24,17 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+## Installation
+
+To get started developing right away:
+
+- git clone https://github.com/noranshaheen/Employee-CRUD.git
+- install all project dependencies with `npm install` and `composer install`.
+- create database on your server with the same exact name of the database of the project.
+- generate database key by `php artisan key:generate`.
+- start the development server with `php artisan serve`.
+- if there any issues update the packages with `npm update`or updata your composer version then try again.
 
 ### Premium Partners
 
@@ -62,3 +67,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Create React App
+
+This project was bootstrapped with [composer create-project laravel/laravel Employee-CRUD].
